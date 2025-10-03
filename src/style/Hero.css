@@ -1,0 +1,36 @@
+.hero{
+  width: 100%;
+  text-align: center;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/backHero.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10px;
+}
+
+.hero h2{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.hero h2 span{
+  color: rgb(3, 99, 215);
+}
+
+.hero p{
+  font-size: 20px;
+  line-height: 1.5;
+  word-spacing: 2px;
+}
+
+.hero-buttons{
+  margin-top: 30px;
+  display: flex;
+  gap: 50px;
+  font-size: 20px;
+}

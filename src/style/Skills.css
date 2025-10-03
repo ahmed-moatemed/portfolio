@@ -1,0 +1,32 @@
+.skills-container{
+  margin: 100px 0;
+  text-align: center;
+}
+
+.skills-container h1{
+  margin: 20px 0px;
+}
+
+.skills-container p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(233, 232, 232);
+}
+
+.skills-container .skills{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  gap: 30px;
+  list-style: none;
+}
+
+.skills li {
+  cursor: pointer;
+  font-size: 20px;
+
+}
