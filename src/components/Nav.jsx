@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from "react-router";
 import '../style/Nav.css';
 
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
+
 export default function Nav() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
     <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100vw'}}>
@@ -12,7 +20,10 @@ export default function Nav() {
           <h2>Mo3temed</h2>
         </Link>
       </div>
-      <div className="links">
+      <div className="hamburger" onClick={toggleMenu}>
+        {isOpen ? <CloseIcon /> : <MenuIcon />}
+      </div>
+      <div className={`links ${isOpen ? 'open' : ''}`}>
         <Link to="/">
           <button>
             Home

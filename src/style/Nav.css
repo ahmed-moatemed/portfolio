@@ -1,14 +1,14 @@
 .nav{
   width: 90%;
-  height: 8vh;
+  height: 10vh;
   background-color: #1a1a1a;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
   color: white;
-  position: sticky;
-  top: 0;
+  position: fixed;
+  top: 10px;
   z-index: 1000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -33,9 +33,41 @@
   gap: 15px;
 }
 
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
 
-/* @media (max-width: 600px) {
-  .links{
-    flex-direction: column;
+
+ @media (max-width: 768px) {
+  .hamburger {
+    display: block;
   }
-} */
+
+  .nav .links {
+    position: absolute;
+    top: 10vh; /* تحت الـ Navbar */
+    left: -38px;
+    width: 100%;
+    background-color: #1a1a1a;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0;
+    transform: translateX(-100%); /* إخفاء القائمة خارج الشاشة */
+    transition: all 0.3s ease-in-out;
+    z-index: 999;
+  }
+
+  .nav .links.open {
+    transform: translateX(0); /* إظهار القائمة */
+    left: 0px;
+  }
+
+  .nav .links button {
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    font-size: 18px;
+  }
+} 

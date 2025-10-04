@@ -16,11 +16,8 @@
 .skills-container .skills{
   margin-top: 20px;
   margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 30px;
   list-style: none;
 }
@@ -28,5 +25,4 @@
 .skills li {
   cursor: pointer;
   font-size: 20px;
-
 }

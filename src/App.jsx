@@ -20,9 +20,9 @@ function App() {
           <Route path="/projects" element={<Projects />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="*" element={
-            <div>
-              <h1>404 Not Found</h1>
-              <Link to="/">Go to Home</Link>
+            <div style={{textAlign: 'center', margin: '100px 0px'}}>
+              <h1 style={{marginBottom: '30px'}}>404 Not Found</h1>
+              <Link style={{textDecoration: 'none', color: '#304ffe'}} to="/">Go to Home</Link>
             </div>}>
           </Route>
         </Routes>
