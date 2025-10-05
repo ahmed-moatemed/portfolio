@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 function Net() {
   return (
@@ -10,7 +11,9 @@ function Net() {
           that blend stunning design with flawless functionality. Let's turn your vision into reality!
         </p>
 
-        <button>Start a Conversation ✉️</button>
+        <Link to='/contact'>
+          <button>Start a Conversation ✉️</button>
+        </Link>
       </div>
     </>
   )
