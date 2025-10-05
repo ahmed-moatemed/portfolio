@@ -1,6 +1,9 @@
 import React from 'react'
 import Hero from './components/Hero'
 import Skills from './components/Skills'
+import ProjectHome from './components/ProjectHome'
+
+import { Link } from 'react-router'
 
 function Home() {
   return (
@@ -8,6 +11,8 @@ function Home() {
       <div style={{width: '90%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
         <Hero />
         <Skills />
+        <ProjectHome />
+        <Link to="/projects" style={{marginBottom: '20px'}}><button>View More Projects</button></Link>
       </div>      
     </div>
   )
