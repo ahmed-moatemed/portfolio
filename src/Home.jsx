@@ -5,6 +5,9 @@ import ProjectHome from './components/ProjectHome'
 
 import { Link } from 'react-router'
 
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+import Net from './components/Net'
+
 function Home() {
   return (
     <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100vw'}}>
@@ -12,7 +15,18 @@ function Home() {
         <Hero />
         <Skills />
         <ProjectHome />
-        <Link to="/projects" style={{marginBottom: '20px'}}><button>View More Projects</button></Link>
+        <Link to="/projects" style={{marginBottom: '20px', }}>
+          <button style={{
+              display: 'flex', 
+              alignItems: 'center', 
+              justifyContent: 'center',
+            }}
+          >
+            View More Projects 
+            <ArrowRightAltIcon style={{marginLeft: '5px',}} />
+          </button>
+        </Link>
+        <Net />
       </div>      
     </div>
   )
