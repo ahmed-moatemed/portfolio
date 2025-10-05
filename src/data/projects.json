@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Landing Page For Adidas Shose",
+    "description": "موقع هبوط بسيط باستخدام HTML, CSS.",
+    "image": "./images/adidas.png",
+    "link": "https://ahmed-ochre.vercel.app/",
+    "github": "https://github.com/ahmed-moatemed/Adidas_show_Shop",
+    "technologies": ["HTML", "CSS", "Responsive"],
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "تطبيق إدارة المهام",
+    "description": "تطبيق لإدارة المهام باستخدام React مع تصميم responsive.",
+    "image": "./images/todolist.png",
+    "link": "https://todolistmo3.netlify.app/",
+    "github": "https://github.com/ahmed-moatemed/todolist",
+    "technologies": ["React", "Material UI", "Redusers" , "Responsive", "Context", "Vite"],
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Website Blog",
+    "description": "صفحة مدونة بسيطة معمولة بـ React.",
+    "image": "./images/blog.png",
+    "link": "https://blog-w6xe.vercel.app/",
+    "github": "https://github.com/ahmed-moatemed/Blog",
+    "technologies": ["React", "CSS", "Responsive"],
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "CRUD Project",
+    "description": " نظام إدارة المنتجات باستخدام HTML , CSS , JavaScript.",
+    "image": "./images/crud-app.png",
+    "link": "https://cruds-brown.vercel.app/",
+    "github": "https://github.com/ahmed-moatemed/pro-for-prodect",
+    "technologies": ["HTML","CSS","JavaScript", "Responsive"],
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "تطبيق توليد ايات القران الكريم",
+    "description": " تطبيق توليد ايات القران الكريم باستخدام HTML , CSS , JavaScript.",
+    "image": "./images/qran.png",
+    "link": "https://random-quran-mo3.netlify.app/",
+    "github": "https://github.com/ahmed-moatemed/random-quran",
+    "technologies": ["HTML","CSS","JavaScript", "Responsive", "API"],
+    "featured": false
+  },
+  {
+    "id": 6,
+    "title": "لعبه حجره ورقه مقص",
+    "description": "لعبه حجره ورقه مقص باستخدام HTML , CSS , JavaScript.",
+    "image": "./images/rock-paper-game.png",
+    "link": "https://exquisite-gnome-c2db08.netlify.app/",
+    "github": "https://github.com/ahmed-moatemed/rock-paper-scissors",
+    "technologies": ["HTML","CSS","JavaScript", "Responsive"],
+    "featured": false
+  },
+  {
+    "id": 7,
+    "title": "تطبيق الطقس",
+    "description": "تطبيق الطقس باستخدام HTML , CSS , JavaScript.",
+    "image": "./images/weather-app.png",
+    "link": "https://weather-app-m33.vercel.app/",
+    "github": "https://github.com/ahmed-moatemed/weather-app",
+    "technologies": ["HTML","CSS","JavaScript", "Responsive", "API"],
+    "featured": false
+  }
+]
