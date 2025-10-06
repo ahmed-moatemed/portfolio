@@ -10,11 +10,30 @@ import Net from './components/Net'
 
 function Home() {
   return (
-    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100vw'}}>
-      <div style={{width: '90%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+    <div 
+      style={{
+        display: 'flex', 
+        justifyContent: 'center', 
+        alignItems: 'center', 
+        width: '100vw'
+      }}
+    >
+      <div 
+        style={{
+          width: '90%', 
+          display: 'flex', 
+          justifyContent: 'center', 
+          alignItems: 'center', 
+          flexDirection: 'column' 
+        }}
+      >
+        {/* Components For Home Page */}
         <Hero />
+
         <Skills />
+
         <ProjectHome />
+
         <Link to="/projects" style={{marginBottom: '20px', }}>
           <button style={{
               display: 'flex', 
@@ -26,7 +45,9 @@ function Home() {
             <ArrowRightAltIcon style={{marginLeft: '5px',}} />
           </button>
         </Link>
+
         <Net />
+
       </div>      
     </div>
   )
