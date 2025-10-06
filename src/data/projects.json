@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "title": "Landing Page For Adidas Shose",
-    "description": "موقع هبوط بسيط باستخدام HTML, CSS.",
+    "title": "Landing Page For Adidas Shoes",
+    "description": "A sleek landing page showcasing Adidas shoes with modern design and smooth animations. Features fully responsive layout optimized for all devices.",
     "image": "./images/adidas.png",
     "link": "https://ahmed-ochre.vercel.app/",
     "github": "https://github.com/ahmed-moatemed/Adidas_show_Shop",
@@ -11,18 +11,18 @@
   },
   {
     "id": 2,
-    "title": "تطبيق إدارة المهام",
-    "description": "تطبيق لإدارة المهام باستخدام React مع تصميم responsive.",
+    "title": "Task Management App",
+    "description": "A feature-rich task management app with add, edit, delete, and filter functionality. Built with React Context API and Material-UI for a polished user experience.",
     "image": "./images/todolist.png",
     "link": "https://todolistmo3.netlify.app/",
     "github": "https://github.com/ahmed-moatemed/todolist",
-    "technologies": ["React", "Material UI", "Redusers" , "Responsive", "Context", "Vite"],
+    "technologies": ["React", "Material UI" , "Local Storage" ,  "Reducers", "Responsive", "Context API", "Vite"],
     "featured": false
   },
   {
     "id": 3,
-    "title": "Website Blog",
-    "description": "صفحة مدونة بسيطة معمولة بـ React.",
+    "title": "Blog Website",
+    "description": "A clean and minimal blog interface with responsive design. Demonstrates component-based architecture and modern CSS styling techniques.",
     "image": "./images/blog.png",
     "link": "https://blog-w6xe.vercel.app/",
     "github": "https://github.com/ahmed-moatemed/Blog",
@@ -31,42 +31,42 @@
   },
   {
     "id": 4,
-    "title": "CRUD Project",
-    "description": " نظام إدارة المنتجات باستخدام HTML , CSS , JavaScript.",
+    "title": "Product Management System (CRUD)",
+    "description": "A full CRUD system for managing products with create, read, update, and delete operations. Features local storage persistence and search functionality.",
     "image": "./images/crud-app.png",
     "link": "https://cruds-brown.vercel.app/",
     "github": "https://github.com/ahmed-moatemed/pro-for-prodect",
-    "technologies": ["HTML","CSS","JavaScript", "Responsive"],
+    "technologies": ["HTML", "CSS", "JavaScript", "Local Storage", "Responsive"],
     "featured": true
   },
   {
     "id": 5,
-    "title": "تطبيق توليد ايات القران الكريم",
-    "description": " تطبيق توليد ايات القران الكريم باستخدام HTML , CSS , JavaScript.",
+    "title": "Random Quran Verse Generator",
+    "description": "An Islamic app that displays random verses from the Holy Quran with Arabic text. Integrated with Quran API for authentic verse retrieval.",
     "image": "./images/qran.png",
     "link": "https://random-quran-mo3.netlify.app/",
     "github": "https://github.com/ahmed-moatemed/random-quran",
-    "technologies": ["HTML","CSS","JavaScript", "Responsive", "API"],
+    "technologies": ["HTML", "CSS", "JavaScript", "Responsive", "API"],
     "featured": false
   },
   {
     "id": 6,
-    "title": "لعبه حجره ورقه مقص",
-    "description": "لعبه حجره ورقه مقص باستخدام HTML , CSS , JavaScript.",
+    "title": "Rock Paper Scissors Game",
+    "description": "Interactive Rock Paper Scissors game with score tracking and smooth animations. Features game logic, user vs computer gameplay, and responsive design.",
     "image": "./images/rock-paper-game.png",
     "link": "https://exquisite-gnome-c2db08.netlify.app/",
     "github": "https://github.com/ahmed-moatemed/rock-paper-scissors",
-    "technologies": ["HTML","CSS","JavaScript", "Responsive"],
+    "technologies": ["HTML", "CSS", "JavaScript", "Local Storage" , "Responsive"],
     "featured": true
   },
   {
     "id": 7,
-    "title": "تطبيق الطقس",
-    "description": "تطبيق الطقس باستخدام HTML , CSS , JavaScript.",
+    "title": "Weather App",
+    "description": "Real-time weather application showing current conditions and forecasts. Integrated with weather API to provide accurate location-based data.",
     "image": "./images/weather-app.png",
     "link": "https://weather-app-m33.vercel.app/",
     "github": "https://github.com/ahmed-moatemed/weather-app",
-    "technologies": ["HTML","CSS","JavaScript", "Responsive", "API"],
+    "technologies": ["HTML", "CSS", "JavaScript", "Responsive", "API"],
     "featured": false
   }
 ]
