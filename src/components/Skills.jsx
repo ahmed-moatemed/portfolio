@@ -25,7 +25,7 @@ function Skills() {
         <ul className='skills'>
           {skills.map((skill) => {
             return(
-              <li key={skill.id} style={{color: skill.color}}>
+              <li key={skill.id} style={{ backgroundColor: skill.color}}>
                 {skill.name}
               </li>
             );

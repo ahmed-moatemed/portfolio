@@ -1,0 +1,30 @@
+.img-portfolio{
+  width: 450px;
+  border-radius: 10px;
+  overflow-x: hidden;
+}
+
+
+@media (max-width: 768px) {
+  .about-hero {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .contant-hero{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .contant-hero p{
+    margin: 0 20px;
+  }
+
+  .img-portfolio{
+    width: 300px;
+    border-radius: 10px;
+    overflow-x: hidden;
+  }
+}
