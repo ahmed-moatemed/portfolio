@@ -11,8 +11,8 @@ function AboutHero() {
             justifyContent: 'center', 
             alignItems: 'center',
             width: '100%',
-            marginTop: '60px',
             gap: '50px',
+            marginTop: '11vh'
           }}
         >
           <div className='contant-hero'
@@ -25,7 +25,6 @@ function AboutHero() {
               flexDirection: 'column',
               gap: '20px',
               padding: '20px',
-              marginTop: '20px'
             }}
           >
 
