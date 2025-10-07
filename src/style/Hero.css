@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("./assets/images/heroback.jpg");
+  background-image: url("../assets/heroback.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
