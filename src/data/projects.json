@@ -7,7 +7,7 @@
     "link": "https://ahmed-ochre.vercel.app/",
     "github": "https://github.com/ahmed-moatemed/Adidas_show_Shop",
     "technologies": ["HTML", "CSS", "Responsive"],
-    "featured": true
+    "featured": false
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "link": "https://todolistmo3.netlify.app/",
     "github": "https://github.com/ahmed-moatemed/todolist",
     "technologies": ["React", "Material UI" , "Local Storage" ,  "Reducers", "Responsive", "Context API", "Vite"],
-    "featured": false
+    "featured": true
   },
   {
     "id": 3,
