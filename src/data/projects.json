@@ -1,13 +1,13 @@
 [
   {
     "id": 1,
-    "title": "Landing Page For Adidas Shoes",
-    "description": "A sleek landing page showcasing Adidas shoes with modern design and smooth animations. Features fully responsive layout optimized for all devices.",
-    "image": "./images/adidas.png",
-    "link": "https://ahmed-ochre.vercel.app/",
-    "github": "https://github.com/ahmed-moatemed/Adidas_show_Shop",
-    "technologies": ["HTML", "CSS", "Responsive"],
-    "featured": false
+    "title": "Muslim Dashboard",
+    "description": "An Islamic daily companion app built with React. Features random Quran verses with English translations via AlQuran Cloud API, accurate prayer times for all Egyptian governorates via Aladhan API, and a daily wird tracker with streak counter powered by localStorage.",
+    "image": "./images/muslim-dashboard.png",
+    "link": "https://muslim-dashboard.netlify.app/",
+    "github": "https://github.com/ahmed-moatemed/muslim-dashboard",
+    "technologies": ["React", "Vite", "REST API", "localStorage", "CSS Variables", "Responsive"],
+    "featured": true
   },
   {
     "id": 2,
@@ -16,21 +16,11 @@
     "image": "./images/todolist.png",
     "link": "https://todolistmo3.netlify.app/",
     "github": "https://github.com/ahmed-moatemed/todolist",
-    "technologies": ["React", "Material UI" , "Local Storage" ,  "Reducers", "Responsive", "Context API", "Vite"],
+    "technologies": ["React", "Material UI", "Local Storage", "Reducers", "Responsive", "Context API", "Vite"],
     "featured": true
   },
   {
     "id": 3,
-    "title": "Blog Website",
-    "description": "A clean and minimal blog interface with responsive design. Demonstrates component-based architecture and modern CSS styling techniques.",
-    "image": "./images/blog.png",
-    "link": "https://blog-w6xe.vercel.app/",
-    "github": "https://github.com/ahmed-moatemed/Blog",
-    "technologies": ["React", "CSS", "Responsive"],
-    "featured": false
-  },
-  {
-    "id": 4,
     "title": "Product Management System (CRUD)",
     "description": "A full CRUD system for managing products with create, read, update, and delete operations. Features local storage persistence and search functionality.",
     "image": "./images/crud-app.png",
@@ -40,7 +30,27 @@
     "featured": true
   },
   {
+    "id": 4,
+    "title": "Weather App",
+    "description": "Real-time weather application showing current conditions and forecasts. Integrated with weather API to provide accurate location-based data.",
+    "image": "./images/weather-app.png",
+    "link": "https://weather-app-m33.vercel.app/",
+    "github": "https://github.com/ahmed-moatemed/weather-app",
+    "technologies": ["HTML", "CSS", "JavaScript", "Responsive", "API"],
+    "featured": false
+  },
+  {
     "id": 5,
+    "title": "Rock Paper Scissors Game",
+    "description": "Interactive Rock Paper Scissors game with score tracking and smooth animations. Features game logic, user vs computer gameplay, and responsive design.",
+    "image": "./images/rock-paper-game.png",
+    "link": "https://exquisite-gnome-c2db08.netlify.app/",
+    "github": "https://github.com/ahmed-moatemed/rock-paper-scissors",
+    "technologies": ["HTML", "CSS", "JavaScript", "Local Storage", "Responsive"],
+    "featured": false
+  },
+  {
+    "id": 6,
     "title": "Random Quran Verse Generator",
     "description": "An Islamic app that displays random verses from the Holy Quran with Arabic text. Integrated with Quran API for authentic verse retrieval.",
     "image": "./images/qran.png",
@@ -50,23 +60,23 @@
     "featured": false
   },
   {
-    "id": 6,
-    "title": "Rock Paper Scissors Game",
-    "description": "Interactive Rock Paper Scissors game with score tracking and smooth animations. Features game logic, user vs computer gameplay, and responsive design.",
-    "image": "./images/rock-paper-game.png",
-    "link": "https://exquisite-gnome-c2db08.netlify.app/",
-    "github": "https://github.com/ahmed-moatemed/rock-paper-scissors",
-    "technologies": ["HTML", "CSS", "JavaScript", "Local Storage" , "Responsive"],
-    "featured": true
+    "id": 7,
+    "title": "Blog Website",
+    "description": "A clean and minimal blog interface with responsive design. Demonstrates component-based architecture and modern CSS styling techniques.",
+    "image": "./images/blog.png",
+    "link": "https://blog-w6xe.vercel.app/",
+    "github": "https://github.com/ahmed-moatemed/Blog",
+    "technologies": ["React", "CSS", "Responsive"],
+    "featured": false
   },
   {
-    "id": 7,
-    "title": "Weather App",
-    "description": "Real-time weather application showing current conditions and forecasts. Integrated with weather API to provide accurate location-based data.",
-    "image": "./images/weather-app.png",
-    "link": "https://weather-app-m33.vercel.app/",
-    "github": "https://github.com/ahmed-moatemed/weather-app",
-    "technologies": ["HTML", "CSS", "JavaScript", "Responsive", "API"],
+    "id": 8,
+    "title": "TechNova Landing Page",
+    "description": "A fully responsive multi-section landing page for a fictional tech company. Includes hero, services, about, pricing plans, testimonials, contact form, and footer sections.",
+    "image": "./images/technova.png",
+    "link": "https://technove-with-m33.netlify.app/",
+    "github": "https://github.com/ahmed-moatemed/TechNova",
+    "technologies": ["HTML", "CSS", "Responsive"],
     "featured": false
   }
 ]
